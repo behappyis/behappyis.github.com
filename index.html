@@ -1,13 +1,33 @@
 <html>
     <head>
-        <link rel="stylesheet" href="/css/style.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
         <title></title>
     </head>
     <body>
-        <script src="/js/background.js"></script>
-        <script src="/js/clock.js"></script>
-        <script src="/js/login.js"></script>
-        <script src="/js/todo.js"></script>
-        <script src="/js/weather.js"></script>
+        <div id="clock">
+            <p><span id="date"></span></p>
+            <p><span id="weeksday"></span><span id="position"></span><span id="weather"></span></p>
+            <p><span id="time"></span></p>
+        </div>
+        <div id="login">
+            <form>
+                <input type="text" required placeholder="Please input name." />
+                <button id="btnLogin">Log In</button>
+            </form>
+            <h1></h1>
+        </div>
+        <div id="todo">
+            <h1>Todos</h1>
+            <form>
+                <input type="text" required placeholder="Please input todo." />
+                <button id="btnTodoADD">ADD</button>
+            </form>
+            <ul></ul>
+        </div>
+        <script src="js/background.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
     </body>
 </html>

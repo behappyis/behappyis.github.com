@@ -1,0 +1,92 @@
+p, div {
+    margin: 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+input {
+    background-color: white;
+}
+
+.fc-white {
+    color: white;
+}
+
+.fs50 {
+    font-size: 50px;
+}
+
+.fs30 {
+    font-size: 30px;
+}
+
+.fs100 {
+    font-size: 100px;
+}
+
+.yellow-shadow {
+    text-shadow: yellow 1px 0 10px;
+}
+
+.black-shadow {
+    text-shadow: black 1px 0 10px;
+}
+
+#clock {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 400px;
+    height:200px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#login {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#todo {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.greeting {
+    color:white;
+    font-size: 30px;
+    text-shadow: greenyellow 1px 0 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.todo-title {
+    margin: 0;
+    color:white;
+    font-size: 30px;
+    text-shadow: red 1px 0 10px;
+}
+
+.position {
+    margin-left: 20px;
+    color:white;
+    font-size: 30px;
+    text-shadow: pink 1px 0 10px;
+}
+
+.todo-item {
+    margin-bottom: 5px;
+    color:red;
+    font-size: 20px;
+    text-shadow: green 1px 0 10px;
+}
+
+.span {
+    margin-left: 10px;
+}
